@@ -1,0 +1,150 @@
+@import "reset.css";
+
+body{
+  background-color: #F0F0F0;
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.margin_sides_50{
+  margin : 0 50px;
+}
+
+.margin_left_101{margin-left: 101px;}
+.margin_left_50{margin-left: 50px;}
+.margin_right_50{margin-right: 50px;}
+
+#header_container{
+  position: relative;
+  margin-left: 50px;
+}
+
+.bl{border-left: 1px solid black;}
+.bt{border-top: 1px solid black;}
+.bb{border-bottom: 1px solid black;}
+.br{border-right: 1px solid black;}
+
+.w50px{width:50px;}
+.w100px{width: 100px;}
+
+.w100{width:100%;}
+.w33{width:33%;}
+
+.h100{height: 100%;}
+
+li {
+  list-style-type: none;
+}
+
+.absolute0{
+  position: absolute;
+  top:0;
+  left:1px;
+}
+
+.empty_square{
+  width:50px;
+  height:50px;
+}
+
+.z_index{z-index: 1;}
+
+.grey_square{
+  width:50px;
+  height:50px;
+  background: #D9D9D9;
+}
+
+.test {border:1px solid red;}
+
+h1{
+  margin:50px 0 0 50px;
+  font-size: 80px;
+  line-height: 73px;
+  text-indent: -7px;
+  position:relative;
+
+  p{
+    height:73px;
+    line-height: 106px;
+  }
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#job_label{
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position:absolute;
+  top:98px;
+  left:243px;
+}
+
+#intro_container{
+  margin-right : 99px;
+  border-radius : 0 0 217px 0;
+  padding-left: 50px;
+  align-items: center;
+  text-align: right;
+
+  p{
+    font-weight:300;
+  }
+}
+
+.rounded{
+  padding: 0 17px 17px 17px;
+}
+
+.rounded_external_border{
+  border:1px solid black;
+  border-radius: 50%;
+  width: 435px;
+  height: 435px;
+}
+
+.rounded_internal_border{
+  height:100%;
+  border: 17px solid #F0F0F0;
+  border-radius: 50%;
+  padding: 10px;
+  background-image: url("images/compressed.jpg");
+  background-position: 53% 7%;
+  background-size: 170%;
+}
+
+#skills_uls{
+  padding : 20px;
+  margin-right: 200px;
+
+}
+
+#les_projets{
+  padding-top: 100px;
+}
+
+#les_projets h2{
+  height: 200px;
+  text-align: center;
+}
