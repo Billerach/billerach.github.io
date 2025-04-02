@@ -23,6 +23,7 @@ body{
 .margin_left_101{margin-left: 101px;}
 .margin_left_50{margin-left: 50px;}
 .margin_right_50{margin-right: 50px;}
+.margin_top_25{margin-top: 25px;}
 
 #header_container{
   position: relative;
@@ -141,10 +142,60 @@ h3{
 }
 
 #les_projets{
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #les_projets h2{
-  height: 200px;
+  height: 100px;
   text-align: center;
+}
+
+#les_projets img{
+  height:50%;
+  width:50%;
+}
+
+.cards{
+  padding: 40px;
+}
+
+.card{
+  border:1px solid #D9D9D9;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.25s all;
+
+  &:hover{
+    background-color: #f9f9f9;
+    box-shadow: 7px 7px 7px #ececec ;
+  }
+}
+
+.card-text{
+  padding: 20px;
+  color: black;
+}
+
+footer{
+  height:200px;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 100px;
+
+  a{
+    color: #808080;
+    text-decoration: none;
+    transition: 0.25s all;
+  }
+
+  a:hover{
+    color: black;
+  }
+
+  ul{
+    width:100px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
 }
